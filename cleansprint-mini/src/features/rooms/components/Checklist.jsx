@@ -6,7 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
-import { useLocalStorage } from "@/hooks/useLocalStorage";
+import { useLocalStorage } from "@/features/rooms/utils/useLocalStorage";
 
 export function Checklist({ roomId, tasks }) {
   const storageKey = `cleansprint.${roomId}.completed.v1`;
