@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { Checklist } from "@/components/Checklist";
 import { Button } from "@/components/ui/button";
-import { getRoomTasks } from "@/lib/rooms";
+import { Checklist } from "@/features/rooms/components/Checklist";
+import { getRoomTasks } from "@/features/rooms/data/rooms";
 
 export default async function RoomPage({ params }) {
   const { room } = await params;

@@ -1,7 +1,7 @@
 import Link from "next/link";
-import ResetAllProgress from "@/components/ResetAllProgress";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getRooms } from "@/lib/rooms";
+import ResetAllProgress from "@/features/rooms/components/ResetAllProgress";
+import { getRooms } from "@/features/rooms/data/rooms";
 
 export default function HomePage() {
   const rooms = getRooms();
