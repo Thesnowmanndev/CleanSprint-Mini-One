@@ -54,6 +54,7 @@ export const ROOM_TASKS = {
     { id: "fridge", label: "Clean out fridge & freezer." },
     { id: "pantry", label: "Clean out & organize pantry." },
     { id: "expired-items", label: "Throw away expired items." },
+    { id: "check-ingredients", label: "Make note of your ingredient stocks." },
     { id: "meals", label: "Plan meals for the week." },
     { id: "shopping-list", label: "Make a shopping list of needed items." },
     { id: "shop", label: "Go grocery shopping." },
